@@ -1,21 +1,36 @@
 # FRONTEND-
 
-A repository for frontend development practice and experiments.
+A small placeholder workspace for frontend learning and experiments.
 
-## Purpose
+## Current repository state
 
-This repository is a workspace for learning and building browser-based user interfaces. As the project evolves, document each completed exercise or application here with its features, screenshots, and setup instructions.
+The current tracked contents consist of a `LOVABLE` placeholder file and this README. There is no `package.json`, source directory, or runnable frontend application at this time.
 
 ## Getting started
 
-1. Clone the repository.
-2. Open the project folder in your code editor.
-3. Follow the setup instructions in the relevant project folder, if present.
+This repository is not runnable yet. When adding a frontend project:
 
-## Project structure
+1. Add the application source and its package manifest.
+2. Document the required Node.js version and package manager.
+3. Add the exact install, development, build, and preview commands from `package.json`.
+4. Include screenshots and a feature summary when the UI is ready.
 
-The repository contents are the source of truth. Add a short description here whenever a new application, page, or exercise is added.
+Do not run `npm install` at the repository root until a `package.json` exists.
+
+## Suggested structure
+
+```text
+src/
+  components/
+  pages/
+  assets/
+package.json
+README.md
+CONTRIBUTING.md
+```
+
+Adapt this structure to the framework selected for the project.
 
 ## Contributing
 
-Keep changes focused, use clear commit messages, and update the relevant documentation when adding features.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Keep the repository focused on frontend learning and document each new exercise.
